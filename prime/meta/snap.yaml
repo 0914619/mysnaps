@@ -1,0 +1,15 @@
+name: crownstonehub-ilhan-test2
+version: '2.20'
+summary: hello world
+description: 'says hello world
+
+'
+architectures:
+- armhf
+confinement: strict
+grade: stable
+apps:
+  bash:
+    command: command-bash.wrapper
+  hello:
+    command: command-hello.wrapper
