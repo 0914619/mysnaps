@@ -1,8 +1,5 @@
 name: crownstonehub-ilhan-test2
 version: '2.20'
-architectures:
- - build-on: amd64
-   run-on: armhf
 summary: hello world
 description: |
   says hello world
