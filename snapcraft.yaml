@@ -1,6 +1,7 @@
 name: crownstonehub-ilhan-test2
 version: '2.20'
 summary: hello world
+architecture: [armhf, amd64, arm64, i386]
 description: |
   says hello world
 grade: stable
